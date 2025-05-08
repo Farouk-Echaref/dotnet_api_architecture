@@ -8,4 +8,9 @@
 ```bash
 dotnet new ASP.NET Core Empty 
 dotnet build
+dotnet run
 ```
+
+- The API we want to build:
+
+![alt text](gamesAPI.png)
