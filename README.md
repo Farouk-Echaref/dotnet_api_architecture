@@ -14,3 +14,5 @@ dotnet run
 - The API we want to build:
 
 ![alt text](gamesAPI.png)
+
+- Record vs Class 
