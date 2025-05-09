@@ -8,7 +8,7 @@ GET http://localhost:5066/fechcha
 GET http://localhost:5066/games
 
 ###
-GET http://localhost:5066/games/4
+GET http://localhost:5066/games/1
 
 ###
 POST http://localhost:5066/games
@@ -19,4 +19,15 @@ Content-Type: application/json
   "genre": "Soul",
   "price": 69.1,
   "releaseDate": "2000-12-22"
+}
+
+###
+PUT http://localhost:5066/games/1
+Content-Type: application/json
+
+{
+  "name": "ER-DLC",
+  "genre": "Soul",
+  "price": 70.0,
+  "releaseDate": "2025-12-22"
 }
