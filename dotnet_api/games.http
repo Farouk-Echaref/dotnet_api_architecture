@@ -8,4 +8,15 @@ GET http://localhost:5066/fechcha
 GET http://localhost:5066/games
 
 ###
-GET http://localhost:5066/games/2
+GET http://localhost:5066/games/4
+
+###
+POST http://localhost:5066/games
+Content-Type: application/json
+
+{
+  "name": "ER",
+  "genre": "Soul",
+  "price": 69.1,
+  "releaseDate": "2000-12-22"
+}
