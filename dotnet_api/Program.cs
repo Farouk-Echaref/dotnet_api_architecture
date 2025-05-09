@@ -29,10 +29,12 @@ app.MapGet("/", () => "Hello World!");
 app.MapGet("/fechcha", () => "This is fechcha route");
 
 // GET /games
-app.Map("/games", () => games);
+app.MapGet("/games", () => games);
 
 // GET /games/{id}
-app.Map("/games/{id}", (int id) => games.Find(games => games.Id == id));
+app.MapGet("/games/{id}", (int id) => games.Find(games => games.Id == id));
 
+// POST /games
+// app
 app.Run();
 
