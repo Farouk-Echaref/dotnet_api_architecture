@@ -3,3 +3,9 @@ GET http://localhost:5066/
 
 ###
 GET http://localhost:5066/fechcha
+
+###
+GET http://localhost:5066/games
+
+###
+GET http://localhost:5066/games/2

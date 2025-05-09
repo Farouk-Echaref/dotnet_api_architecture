@@ -28,6 +28,11 @@ List<GameDto> games = [
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/fechcha", () => "This is fechcha route");
 
+// GET /games
 app.Map("/games", () => games);
 
+// GET /games/{id}
+app.Map("/games/{id}", (int id) => games.Find(games => games.Id == id));
+
 app.Run();
+
